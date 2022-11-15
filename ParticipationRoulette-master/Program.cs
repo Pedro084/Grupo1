@@ -76,7 +76,7 @@
 
             
             //Este é outro comentário que me tinha esquecido. 
-            var random = new Random(DateTime.Now.Millisecond);
+            var random = new Random(DateTime.Now.Millisecond); //returns an evenly distributed random real number greater than or equal to 0 and less than 1
             var  index = random.Next(students.Count);
             
             Console.WriteLine(students[index]);
