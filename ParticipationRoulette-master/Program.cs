@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            bool showMenu = true;
+            var showMenu = true;
             while (showMenu)
             {
                 showMenu = MainMenu();
@@ -122,14 +122,14 @@
 
             var membersPerTeam = CaptureInput();
 
-            int teamCount = students.Count / membersPerTeam;
+            var teamCount = students.Count / membersPerTeam;
             var teams = new List<String[]>();
 
             //This for cycle will create as many groups as needed
             for (int i = 0; i < teamCount; i++)
             {
                 //This for cycle will create team composition
-                String[] team = new String[membersPerTeam];
+                var[] team = new String[membersPerTeam];
                 for (int j = 0; j < membersPerTeam; j++)
                 {
                     var random = new Random(DateTime.Now.Millisecond);
