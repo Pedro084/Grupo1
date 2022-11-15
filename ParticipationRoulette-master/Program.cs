@@ -74,7 +74,7 @@
             students.Add("FRANCISCO DIAS");
             students.Add("LEONARDO Andrade");
 
-            //Get Random Value to find student
+            
             //Este é outro comentário que me tinha esquecido. 
             var random = new Random(DateTime.Now.Millisecond);
             var  index = random.Next(students.Count);
