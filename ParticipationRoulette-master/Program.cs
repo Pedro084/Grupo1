@@ -140,7 +140,7 @@
                 }
                 teams.Add(team);
             }
-
+            //Apresentação dos grupos escolhidos anteriormente
             for(int i=0;i<teams.Count;i++)
             {
                 var team = teams[i];
